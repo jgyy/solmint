@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SolMint - Solana Token</title>
+    <link rel="stylesheet" href="styles.css">
+    <meta name="description" content="Launch your own Solana token in minutes. Complete platform with token creation, professional website, and growth strategies.">
+    <meta property="og:title" content="SolMint">
+    <meta property="og:description" content="Create and launch profitable Solana tokens instantly">
+    <meta property="og:image" content="https://raw.githubusercontent.com/solmint/blockchain0/main/website/assets/logo.png">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-content">
+                <div class="logo">SolMint</div>
+                <div class="nav-links">
+                    <a href="#about">About</a>
+                    <a href="#tokenomics">Tokenomics</a>
+                    <a href="#how-to-buy">How to Buy</a>
+                    <a href="#roadmap">Roadmap</a>
+                    <a href="#contact">Contact</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1>Welcome to SolMint</h1>
+                <p class="subtitle">Launch your own Solana token in minutes with our complete platform</p>
+                <div class="cta-buttons">
+                    <a href="#how-to-buy" class="btn btn-primary">Buy Now</a>
+                    <a href="https://explorer.solana.com/address/SolMintTokenAddress" target="_blank" class="btn btn-secondary">View on Explorer</a>
+                </div>
+                <div class="hero-info">
+                    <div class="info-item">
+                        <span class="label">Contract Address</span>
+                        <code id="contract-address">SolMintTokenAddress</code>
+                        <button class="copy-btn" onclick="copyToClipboard()">Copy</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>About SolMint</h2>
+            <p>SolMint is a complete platform for launching your own cryptocurrency token on Solana. We provide everything you need: token creation, professional website, deployment automation, and proven marketing strategies.</p>
+
+            <div class="features">
+                <div class="feature">
+                    <div class="feature-icon">⚡</div>
+                    <h3>Fast Transactions</h3>
+                    <p>Built on Solana for lightning-fast transactions and low fees</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">🔒</div>
+                    <h3>Secure</h3>
+                    <p>On-chain and transparent, anyone can verify the smart contract</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">👥</div>
+                    <h3>Community Driven</h3>
+                    <p>Built by the community, for the community</p>
+                </div>
+                <div class="feature">
+                    <div class="feature-icon">📈</div>
+                    <h3>Growth Focused</h3>
+                    <p>Dedicated team working on adoption and utility</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Tokenomics Section -->
+    <section id="tokenomics" class="tokenomics">
+        <div class="container">
+            <h2>Tokenomics</h2>
+            <div class="tokenomics-content">
+                <div class="tokenomics-info">
+                    <div class="stat">
+                        <span class="label">Total Supply</span>
+                        <span class="value">1,000,000,000</span>
+                    </div>
+                    <div class="stat">
+                        <span class="label">Decimals</span>
+                        <span class="value">6</span>
+                    </div>
+                    <div class="stat">
+                        <span class="label">Network</span>
+                        <span class="value">Solana</span>
+                    </div>
+                </div>
+
+                <div class="distribution">
+                    <h3>Token Distribution</h3>
+                    <div class="distribution-chart">
+                        <div class="dist-item">
+                            <div class="dist-bar" style="width: 70%; background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);"></div>
+                            <span>Liquidity Pool: 70%</span>
+                        </div>
+                        <div class="dist-item">
+                            <div class="dist-bar" style="width: 20%; background: linear-gradient(135deg, #f093fb 0%, #f5576c 100%);"></div>
+                            <span>Team Allocation: 20%</span>
+                        </div>
+                        <div class="dist-item">
+                            <div class="dist-bar" style="width: 5%; background: linear-gradient(135deg, #4facfe 0%, #00f2fe 100%);"></div>
+                            <span>Marketing: 5%</span>
+                        </div>
+                        <div class="dist-item">
+                            <div class="dist-bar" style="width: 5%; background: linear-gradient(135deg, #43e97b 0%, #38f9d7 100%);"></div>
+                            <span>Development: 5%</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- How to Buy Section -->
+    <section id="how-to-buy" class="how-to-buy">
+        <div class="container">
+            <h2>How to Buy SolMint</h2>
+
+            <div class="steps">
+                <div class="step">
+                    <div class="step-number">1</div>
+                    <h3>Create a Wallet</h3>
+                    <p>Create a Solana wallet using Phantom, Solflare, or other Solana wallets</p>
+                    <a href="https://phantom.app" target="_blank">Get Phantom Wallet →</a>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">2</div>
+                    <h3>Get SOL</h3>
+                    <p>Purchase SOL from a cryptocurrency exchange or transfer it to your wallet</p>
+                    <a href="https://coinbase.com" target="_blank">Buy on Coinbase →</a>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">3</div>
+                    <h3>Swap on DEX</h3>
+                    <p>Visit Raydium or Jupiter and swap SOL for SolMint</p>
+                    <div class="dex-links">
+                        <a href="https://raydium.io" target="_blank" class="dex-link">Raydium</a>
+                        <a href="https://jup.ag" target="_blank" class="dex-link">Jupiter</a>
+                    </div>
+                </div>
+
+                <div class="step">
+                    <div class="step-number">4</div>
+                    <h3>Manage & Hold</h3>
+                    <p>Your tokens appear in your wallet. Hold for growth or trade as you wish!</p>
+                </div>
+            </div>
+
+            <div class="warning">
+                <strong>⚠️ Risk Warning:</strong> Cryptocurrency investments carry high risk. Do your own research (DYOR) and only invest what you can afford to lose.
+            </div>
+        </div>
+    </section>
+
+    <!-- Roadmap Section -->
+    <section id="roadmap" class="roadmap">
+        <div class="container">
+            <h2>Roadmap</h2>
+            <div class="timeline">
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Phase 1: Launch</h3>
+                        <p>Token creation, liquidity pool setup, and official website launch</p>
+                        <span class="timeline-date">Q1 2024</span>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Phase 2: Community Growth</h3>
+                        <p>Build community engagement, social media presence, and DEX listings</p>
+                        <span class="timeline-date">Q2 2024</span>
+                    </div>
+                </div>
+
+                <div class="timeline-item">
+                    <div class="timeline-marker"></div>
+                    <div class="timeline-content">
+                        <h3>Phase 3: Expansion</h3>
+                        <p>Additional exchange listings, partnerships, and ecosystem development</p>
+                        <span class="timeline-date">Q3 2024</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Social Links Section -->
+    <section id="contact" class="social">
+        <div class="container">
+            <h2>Stay Connected</h2>
+            <div class="social-links">
+                <a href="https://twitter.com/solmint_io" target="_blank" class="social-icon" title="Twitter">𝕏</a>
+                <a href="https://t.me/solmint" target="_blank" class="social-icon" title="Telegram">📱</a>
+                <a href="https://discord.gg/solmint" target="_blank" class="social-icon" title="Discord">💬</a>
+            </div>
+            <p class="social-text">Join our community and stay updated on the latest news</p>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2024 SolMint. All rights reserved.</p>
+            <p class="disclaimer">Launch your own token with SolMint. Not financial advice. Do your own research.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

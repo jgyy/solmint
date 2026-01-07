@@ -1,0 +1,39 @@
+{
+  "token": {
+    "name": "SolMint",
+    "symbol": "MINT",
+    "description": "Launch your own Solana token in minutes. Complete platform with token creation, professional website, and growth strategies.",
+    "decimals": 6,
+    "supply": "1000000000",
+    "logoUrl": "https://raw.githubusercontent.com/solmint/blockchain0/main/website/assets/logo.png"
+  },
+  "distribution": {
+    "liquidity_pool": "70%",
+    "your_allocation": "20%",
+    "marketing_airdrops": "5%",
+    "team_development": "5%"
+  },
+  "social": {
+    "twitter": "https://twitter.com/solmint_io",
+    "telegram": "https://t.me/solmint",
+    "discord": "https://discord.gg/solmint",
+    "website": "https://solmint.io"
+  },
+  "roadmap": [
+    {
+      "phase": "Phase 1",
+      "name": "Launch",
+      "description": "Token creation, initial liquidity, and website launch"
+    },
+    {
+      "phase": "Phase 2",
+      "name": "Community Growth",
+      "description": "Build community, social media presence, and DEX listings"
+    },
+    {
+      "phase": "Phase 3",
+      "name": "Expansion",
+      "description": "Additional exchange listings and partnerships"
+    }
+  ]
+}
